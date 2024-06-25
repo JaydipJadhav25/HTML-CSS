@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .staic-text{
+    font-size: 60px;
+}
+.wrapper .dynamic-text{
+
+}
+
+.dynamic-text{
+    font-size: 60px;
+
+}
+
+.dynamic-text li{
+    
+list-style: none;
+}

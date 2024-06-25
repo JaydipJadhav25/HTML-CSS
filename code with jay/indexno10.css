@@ -1,0 +1,62 @@
+ /* p{
+
+    color: rgb(139, 164, 164);
+}
+article{
+    color: rgb(114, 130, 125);
+    font-family: 'Courier New', Courier, monospace; 
+} */
+h1{
+    /* text-align: center; */
+    color:  red currentColor;
+    background-color: cornflowerblue;
+
+/* border-style: solid;
+border-color: brown;
+      border-width: 5px; */
+
+/* crating border is one line systax  */
+ border:  solid 5px black;
+ /* border-radius: 10px; */
+ /* creating one  eag of curve  */
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+
+
+/* to decide thre width and heigth  od border :  */
+
+
+/* width: 400px; */
+width:300px;
+
+height: 100px
+
+
+
+
+
+}
+p,article{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:  solid 5px black;
+}
+/* div{
+color: black;
+   background-color: white;
+    border:  solid 5px black;
+
+
+font-family: 'Courier New', Courier, monospace;
+} */
+p{
+    background-color: burlywood;
+}
+#abc{
+
+    background-color: aquamarine;
+}
+article{
+    background-color: cadetblue;
+    /* padding:10px; */
+}

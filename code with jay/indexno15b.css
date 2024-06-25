@@ -1,0 +1,36 @@
+p{
+
+
+    color: black;
+    border:  solid black 5px;
+    /* aaddting padding:  */
+    /* padding: 100px; */
+    /* padding-top: 50px; */
+/* padding: 50px; */
+padding: 50px;
+
+/* margin additing */
+/* margin-top: 100px;
+ */
+margin: 100px;
+/* margin-top: 400px; */
+/* this is good particles :  */
+margin: 0px;
+padding: opx;
+
+}
+/* this is universly secltor : " * " */
+*{
+
+
+    /* color: bisque; */
+
+}
+article{
+    padding: 50px;
+
+    border:  solid black 5px;
+    /* margin: 1oopx; */
+margin: 0px;
+padding: opx;
+}

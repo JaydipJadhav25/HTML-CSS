@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        .con{
+            background-color: blueviolet;
+            display: flex;
+            
+
+        }
+        @media (min-width:640px){
+            /* .box{
+                background-color: cadetblue;
+            } */
+            .con{
+                flex-direction: row;
+            }
+        }
+        @media (max-width:640px){
+            .con{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box">1</div>
+        <div class="box">1</div>
+        <div class="box">1</div>
+        <div class="box">1</div>
+        <div class="box">1</div>
+        <div class="box">1</div>
+  
+    </div>
+    
+</body>
+</html>

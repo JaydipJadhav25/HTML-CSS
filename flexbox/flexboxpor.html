@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    text-align: center;
+}
+
+div{
+ height: 100px;
+ width: 100px;
+ display: inline-block;
+ border: 2px black solid;
+
+}
+#con{
+            height: 500px;
+            width: 300px;
+            background-color: aquamarine;
+            border: 2px blacks solid;
+            display: flex;
+            flex-direction: row;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction:  column-reverse; */
+                  
+           /* justify-content: center; */
+           /* justify-content: space-around; */
+           /* justify-content: end; */
+           /* justify-content: space-evenly; */
+           /* align-items: center; */
+           /* align-items: self-start; */
+
+
+           /* align-items: center; no effect */
+           /* align-content: space-around; no effect */
+            
+           justify-content: center;
+           /* align-items: center; */
+           /* align-items: end; */
+           flex-wrap: wrap;
+           /* flex-wrap:  wrap-reverse; */
+
+      align-items: flex-start;
+        }
+        #box1{
+
+
+            /* align-items: center; */
+            /* align-self: flex-end; */
+            align-self: center;
+            flex-shrink: 2;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>flex box :</h1>
+    <div id="con">
+<div  style="background-color: blueviolet;"  id="box1" >box1</div>
+<div  style="background-color: blueviolet;"  >bo2</div>
+<div  style="background-color: blueviolet;"  >box3</div>
+<div  style="background-color: blueviolet;" id="box4" >box4</div>
+
+    </div>
+</body>
+</html>

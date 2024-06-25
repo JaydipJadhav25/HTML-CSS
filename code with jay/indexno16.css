@@ -1,0 +1,33 @@
+*{
+
+
+    padding: 0px;
+    margin: opx
+    /* crating fix size : */
+/* box-sizing :border box; */
+
+
+} 
+.box{
+/* display: inline; */
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    /* crating fix size : */
+
+    /* box-sizing :border-box; */
+    padding: 50px;
+    
+    
+}
+span{
+
+display: block;
+    border: 5px black solid;
+   /* do not changing wieth and higtht this is inline elemant : */
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+    /* box-sizing: border-box; */
+    padding: 90px;
+}

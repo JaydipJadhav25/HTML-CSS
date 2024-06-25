@@ -1,0 +1,25 @@
+b{
+    color: brown;
+}
+h1{
+    text-align: center;
+    color: #ffbb00;
+}
+p{
+    color: darkkhaki;
+}
+h2{
+    color: cadetblue;
+    text-decoration: double;
+    text-shadow: aqua;
+    /* text-align: center; */
+}
+#abc{
+    color: mediumpurple;
+}
+/* body{
+    color: blue;
+} */
+/* #ab{
+    background-color: blueviolet;
+} */

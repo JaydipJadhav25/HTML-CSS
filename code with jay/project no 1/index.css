@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navlist{
+    /* margin-top: 20px; nhi honar na */
+    margin-left: 15px;
+    margin-right: 115px;
+    font-size: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; navlist lies navcontainer so change in navconter */
+ 
+
+}
+
+.container{
+
+    width: 100vw;
+    /* height: 100vh; */
+    overflow-x:none ;
+
+}
+.navcontainer{
+    width: 100vw;
+    min-height: 88px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+#navlogo{
+
+    font-size: 2.4rem;
+    color:#9e1b32;
+
+}
+/* #navlogo1{
+    font-size: 2.4rem;
+    align-content: start;
+    align-self: flex-start;
+} */
+/* #navlogo :hover{
+    text-shadow: 2px 2px 5px gray;
+} */
+nav{
+    width: 100vw ;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+a{
+    text-decoration: none;
+    color: rgb(119, 65, 198);
+    /* margin-left: 20px; */
+    padding: 10px;
+}
+
+/* main content */
+
+.content{
+
+    color: black;
+   
+}
+
+#rdtc{
+    float: left;
+    padding-right:10px ;
+ 
+}
+#pera{
+    margin-left: 10px;
+    overflow: scroll;
+}
+.logo2:hover{
+    border: 0.01px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
